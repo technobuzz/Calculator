@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04C1F76317F8A71000759C59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C1F76217F8A71000759C59 /* UIKit.framework */; };
+		04C1F76517F8A71000759C59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C1F76417F8A71000759C59 /* Foundation.framework */; };
+		04C1F76717F8A71000759C59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C1F76617F8A71000759C59 /* CoreGraphics.framework */; };
+		04C1F76D17F8A71000759C59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04C1F76B17F8A71000759C59 /* InfoPlist.strings */; };
+		04C1F76F17F8A71000759C59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C1F76E17F8A71000759C59 /* main.m */; };
+		04C1F77317F8A71000759C59 /* calcyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C1F77217F8A71000759C59 /* calcyAppDelegate.m */; };
+		04C1F77617F8A71000759C59 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C1F77417F8A71000759C59 /* MainStoryboard.storyboard */; };
+		04C1F77917F8A71000759C59 /* calcyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C1F77817F8A71000759C59 /* calcyViewController.m */; };
+		04C1F78D17F8CA8700759C59 /* calcyBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C1F78C17F8CA8700759C59 /* calcyBrain.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04C1F75E17F8A71000759C59 /* StanfordWalkthru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StanfordWalkthru.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C1F76217F8A71000759C59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04C1F76417F8A71000759C59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04C1F76617F8A71000759C59 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04C1F76A17F8A71000759C59 /* StanfordWalkthru-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StanfordWalkthru-Info.plist"; sourceTree = "<group>"; };
+		04C1F76C17F8A71000759C59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04C1F76E17F8A71000759C59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04C1F77017F8A71000759C59 /* StanfordWalkthru-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StanfordWalkthru-Prefix.pch"; sourceTree = "<group>"; };
+		04C1F77117F8A71000759C59 /* calcyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = calcyAppDelegate.h; sourceTree = "<group>"; };
+		04C1F77217F8A71000759C59 /* calcyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calcyAppDelegate.m; sourceTree = "<group>"; };
+		04C1F77517F8A71000759C59 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		04C1F77717F8A71000759C59 /* calcyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = calcyViewController.h; sourceTree = "<group>"; };
+		04C1F77817F8A71000759C59 /* calcyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calcyViewController.m; sourceTree = "<group>"; };
+		04C1F78B17F8CA8700759C59 /* calcyBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = calcyBrain.h; sourceTree = "<group>"; };
+		04C1F78C17F8CA8700759C59 /* calcyBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = calcyBrain.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04C1F75B17F8A71000759C59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C1F76317F8A71000759C59 /* UIKit.framework in Frameworks */,
+				04C1F76517F8A71000759C59 /* Foundation.framework in Frameworks */,
+				04C1F76717F8A71000759C59 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04C1F75317F8A71000759C59 = {
+			isa = PBXGroup;
+			children = (
+				04C1F76817F8A71000759C59 /* StanfordWalkthru */,
+				04C1F76117F8A71000759C59 /* Frameworks */,
+				04C1F75F17F8A71000759C59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04C1F75F17F8A71000759C59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04C1F75E17F8A71000759C59 /* StanfordWalkthru.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04C1F76117F8A71000759C59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04C1F76217F8A71000759C59 /* UIKit.framework */,
+				04C1F76417F8A71000759C59 /* Foundation.framework */,
+				04C1F76617F8A71000759C59 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04C1F76817F8A71000759C59 /* StanfordWalkthru */ = {
+			isa = PBXGroup;
+			children = (
+				04C1F78B17F8CA8700759C59 /* calcyBrain.h */,
+				04C1F78C17F8CA8700759C59 /* calcyBrain.m */,
+				04C1F77117F8A71000759C59 /* calcyAppDelegate.h */,
+				04C1F77217F8A71000759C59 /* calcyAppDelegate.m */,
+				04C1F77417F8A71000759C59 /* MainStoryboard.storyboard */,
+				04C1F77717F8A71000759C59 /* calcyViewController.h */,
+				04C1F77817F8A71000759C59 /* calcyViewController.m */,
+				04C1F76917F8A71000759C59 /* Supporting Files */,
+			);
+			path = StanfordWalkthru;
+			sourceTree = "<group>";
+		};
+		04C1F76917F8A71000759C59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04C1F76A17F8A71000759C59 /* StanfordWalkthru-Info.plist */,
+				04C1F76B17F8A71000759C59 /* InfoPlist.strings */,
+				04C1F76E17F8A71000759C59 /* main.m */,
+				04C1F77017F8A71000759C59 /* StanfordWalkthru-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04C1F75D17F8A71000759C59 /* StanfordWalkthru */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C1F77C17F8A71000759C59 /* Build configuration list for PBXNativeTarget "StanfordWalkthru" */;
+			buildPhases = (
+				04C1F75A17F8A71000759C59 /* Sources */,
+				04C1F75B17F8A71000759C59 /* Frameworks */,
+				04C1F75C17F8A71000759C59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StanfordWalkthru;
+			productName = StanfordWalkthru;
+			productReference = 04C1F75E17F8A71000759C59 /* StanfordWalkthru.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04C1F75517F8A71000759C59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 04C1F75817F8A71000759C59 /* Build configuration list for PBXProject "StanfordWalkthru" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04C1F75317F8A71000759C59;
+			productRefGroup = 04C1F75F17F8A71000759C59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04C1F75D17F8A71000759C59 /* StanfordWalkthru */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04C1F75C17F8A71000759C59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C1F76D17F8A71000759C59 /* InfoPlist.strings in Resources */,
+				04C1F77617F8A71000759C59 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04C1F75A17F8A71000759C59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C1F76F17F8A71000759C59 /* main.m in Sources */,
+				04C1F77317F8A71000759C59 /* calcyAppDelegate.m in Sources */,
+				04C1F77917F8A71000759C59 /* calcyViewController.m in Sources */,
+				04C1F78D17F8CA8700759C59 /* calcyBrain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04C1F76B17F8A71000759C59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C1F76C17F8A71000759C59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04C1F77417F8A71000759C59 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C1F77517F8A71000759C59 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04C1F77A17F8A71000759C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04C1F77B17F8A71000759C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04C1F77D17F8A71000759C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StanfordWalkthru/StanfordWalkthru-Prefix.pch";
+				INFOPLIST_FILE = "StanfordWalkthru/StanfordWalkthru-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04C1F77E17F8A71000759C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StanfordWalkthru/StanfordWalkthru-Prefix.pch";
+				INFOPLIST_FILE = "StanfordWalkthru/StanfordWalkthru-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04C1F75817F8A71000759C59 /* Build configuration list for PBXProject "StanfordWalkthru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C1F77A17F8A71000759C59 /* Debug */,
+				04C1F77B17F8A71000759C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C1F77C17F8A71000759C59 /* Build configuration list for PBXNativeTarget "StanfordWalkthru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C1F77D17F8A71000759C59 /* Debug */,
+				04C1F77E17F8A71000759C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04C1F75517F8A71000759C59 /* Project object */;
+}
